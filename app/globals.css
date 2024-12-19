@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Modern+Antiqua&family=Montserrat:ital,wght@0,300;0,500;1,300&family=Poppins:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap');
+
+/* .im-fell-english-regular {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -5,8 +13,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Tailwind neutral-400 */
+    --background: #737373; 
+    /* Tailwind neutral-200 */
+    --foreground: #e5e5e5;
   }
 }
 
@@ -30,13 +40,48 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 1.5rem;
+  font-family: "IM Fell English", serif;
+  max-width: 55rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 60rem) {
+  h1 {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+h2 {
+  font-family: "IM Fell English", serif;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.section-container {
+  padding: 1rem;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */
