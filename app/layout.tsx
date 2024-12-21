@@ -27,11 +27,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Navbar />
+        <div className={ 'navbar-container' }>
+          <Navbar />
+        </div>
         {children}
         {/* className={styles.footer} */}
         <footer>
-          footer
+          {/* footer */}
         </footer>
       </body>
     </html>

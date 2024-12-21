@@ -15,8 +15,12 @@
   :root {
     /* Tailwind neutral-400 */
     --background: #737373; 
+    /* Tailwind neutral-700 */
+    --background-darker: #404040;
     /* Tailwind neutral-200 */
     --foreground: #e5e5e5;
+    /* Tailwind neutral-400 */
+    --foreground-darker: #a3a3a3;
   }
 }
 
@@ -55,7 +59,7 @@ h1 {
   }
 }
 
-h2 {
+h2, nav {
   font-family: "IM Fell English", serif;
 }
 
@@ -71,6 +75,34 @@ p {
 
 li {
   margin-bottom: 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+  padding-bottom: 0.4rem;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.navbar-container {
+  background: var(--background-darker);
+}
+
+.navbar-links-container {
+  a {
+    margin-left: 1.2rem;
+  }
+  a:hover {
+    color: var(--foreground-darker);
+  }
 }
 
 .section-container {
