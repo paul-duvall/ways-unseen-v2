@@ -7,20 +7,17 @@
 } */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Nothing here at present! */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     /* Tailwind neutral-400 */
-    --background: #737373; 
-    /* Tailwind neutral-700 */
-    --background-darker: #404040;
+    --neutral-400: #737373;
     /* Tailwind neutral-200 */
-    --foreground: #e5e5e5;
-    /* Tailwind neutral-400 */
-    --foreground-darker: #a3a3a3;
+    --neutral-200: #e5e5e5;
+    /* Tailwind neutral-700 */
+    --neutral-700: #404040;
   }
 }
 
@@ -31,8 +28,8 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--neutral-200);
+  background: var(--neutral-700);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -93,7 +90,8 @@ nav {
 }
 
 .navbar-container {
-  background: var(--background-darker);
+  color: var(--neutral-700);
+  background: var(--neutral-200);
 }
 
 .navbar-links-container {
@@ -101,7 +99,7 @@ nav {
     margin-left: 1.2rem;
   }
   a:hover {
-    color: var(--foreground-darker);
+    color: var(--neutral-400);
   }
 }
 
