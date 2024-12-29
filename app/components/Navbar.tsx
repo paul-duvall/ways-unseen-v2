@@ -7,13 +7,15 @@ export default function Navbar() {
   <nav>
     <div>
     <Image
-      src="/logo-white.png"
+      src="/logo-grey.png"
       alt="Banner image"
       layout="intrinsic"
       width={60}
       height={60}
     />
-    <b><Link href="/">Ways Unseen</Link></b>
+    <span className={ 'navbar-logo-text' }>
+      <b><Link href="/">Ways Unseen</Link></b>
+    </span>
     </div>
     <div className={ 'navbar-links-container' }>
       <Link href="/">Home</Link>
