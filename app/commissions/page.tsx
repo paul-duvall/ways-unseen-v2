@@ -12,11 +12,11 @@ export default function Commissions() {
             </p>
             <p>
                 The illustrations I create for commissions are typically either isometric or top 
-                down maps, though I have created maps in other styles. If you're curious about the range of
+                down maps, though I have created maps in other styles. If you&apos;re curious about the range of
                 styles I can use, check out my <a href="https://cara.app/waysunseen/portfolio" target="_blank">portfolio</a>!
             </p>
             <p>
-                If you'd like to get in contact you can email me at <a href="mailto:ways.unseen@gmail.com">ways.unseen@gmail.com</a> or 
+                If you would like to get in contact you can email me at <a href="mailto:ways.unseen@gmail.com">ways.unseen@gmail.com</a> or 
                 you can message me on <a href="ways-unseen.bsky.social" target="_blank">Bluesky</a> or <a href="https://www.instagram.com/ways.unseen" target="_blank">Instagram</a>.
             </p>
             <p>
