@@ -24,7 +24,7 @@ export default function About() {
             following grow quickly.
           </p>
 
-          <p>This increased exposure lead to commission requests and I've now worked with a number of
+          <p>This increased exposure lead to commission requests and I&apos;ve now worked with a number of
             game designers to produce high-quality hand-drawn maps to help realise their creations. As
             time has gone on, I&apos;ve broadened the range of map styles, including region and town maps, hex-maps
             and cut away maps, each enabling me to represent locations in different ways.
