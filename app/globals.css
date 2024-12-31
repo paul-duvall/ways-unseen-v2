@@ -12,10 +12,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Tailwind neutral-400 */
-    --neutral-400: #737373;
+    --line-height: 1.6;
     /* Tailwind neutral-200 */
     --neutral-200: #e5e5e5;
+    /* Tailwind neutral-400 */
+    --neutral-400: #737373;
     /* Tailwind neutral-700 */
     --neutral-700: #404040;
   }
@@ -61,12 +62,13 @@ h2, nav {
 }
 
 a {
-  color: inherit;
+  font-weight: bold;
+  color: var(--neutral-400);
   text-decoration: none;
 }
 
 p {
-  line-height: 1.6;
+  line-height: var(--line-height);
   margin-bottom: 1rem;
 }
 
@@ -131,9 +133,3 @@ footer {
   padding: 0.5rem;
   text-align: center;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-} */
