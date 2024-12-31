@@ -27,57 +27,22 @@ export default function Commissions() {
                     know which one. 
                     
                 </li>
-                <Image
-                    src="/divider.png"
-                    alt="Divider image"
-                    layout="intrinsic"
-                    width={250}
-                    height={700}
-                />
                 <li>
                     I will respond with any clarifying questions and will endeavor to give you a quote and 
                     outline the process going forward. 
                 </li>
-                <Image
-                    src="/divider.png"
-                    alt="Divider image"
-                    layout="intrinsic"
-                    width={250}
-                    height={700}
-                />
                 <li>
                     Once the work has been agreed, a 20% deposit is payable via Paypal (or full payment can be make 
                     up-front if that is easier for you). 
                 </li>
-                <Image
-                    src="/divider.png"
-                    alt="Divider image"
-                    layout="intrinsic"
-                    width={250}
-                    height={700}
-                />
                 <li>
                     An initial sketch will be provided to give a general idea of layout / proportions. This 
                     is the stage at which you are able to request any changes to the layout. 
                 </li>
-                <Image
-                    src="/divider.png"
-                    alt="Divider image"
-                    layout="intrinsic"
-                    width={250}
-                    height={700}
-                />
                 <li>
                     If you are happy with the initial sketch, I will create the final illustration and send you a 
                     final proof. 
                 </li>
-                <Image
-                    src="/divider.png"
-                    alt="Divider image"
-                    layout="intrinsic"
-                    width={250}
-                    height={700}
-                />
                 <li>
                     Once agreed, any outstanding final balance will be paid via Paypal. After receipt of the balance, 
                     the final digital files will be provided. 
