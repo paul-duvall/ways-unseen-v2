@@ -21,7 +21,7 @@ export default function Commissions() {
             </p>
             <h2>Process</h2>
             <p>
-                Here&apos;'s a brief overview of how I typically handle a commission to give you an idea of what to expect if
+                Here&apos;s a brief overview of how I typically handle a commission to give you an idea of what to expect if
                 you hire me to draw a map: 
             </p>
             <ol className={styles['commission-stages']}>
