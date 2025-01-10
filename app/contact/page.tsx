@@ -1,15 +1,18 @@
 "use client"
 
 export default function Contact() {
-    const handleFormSubmit = async (event) => {
-        console.log(1)
-        console.log(event)
+    const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        const formData = new FormData(event.target);
+        const formData = new FormData(event.currentTarget);
+
+        const data: Record<string, string> = {};
+        formData.forEach((value, key) => {
+        data[key] = value.toString();
+});
         await fetch("/__forms.html", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams(formData).toString(),
+          body: new URLSearchParams(data).toString(),
         });
         // Success and error handling ...
       };
