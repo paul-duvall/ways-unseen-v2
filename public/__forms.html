@@ -3,7 +3,18 @@
   <body>
     <form name="contact" data-netlify="true" hidden>
       <input type="hidden" name="form-name" value="contact" />
-      <input name="query" type="text" />
+      <div>
+        <label for="name">Name</label>
+        <input name="name" type="text" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" required />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <input name="message" type="text" required />
+      </div>
     </form>
   </body>
 </html>
