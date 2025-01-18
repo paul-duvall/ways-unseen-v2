@@ -21,6 +21,7 @@ export default function Navbar() {
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
       <Link href="/commissions">Commissions</Link>
+      <Link href="/contact">Contact</Link>
     </div>
   </nav>
   )
