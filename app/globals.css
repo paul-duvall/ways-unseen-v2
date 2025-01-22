@@ -7,19 +7,13 @@
 } */
 
 :root {
-  /* Nothing here at present! */
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --line-height: 1.6;
-    /* Tailwind neutral-200 */
-    --neutral-200: #e5e5e5;
-    /* Tailwind neutral-400 */
-    --neutral-400: #737373;
-    /* Tailwind neutral-700 */
-    --neutral-700: #404040;
-  }
+  --line-height: 1.6;
+  /* Tailwind neutral-200 */
+  --neutral-200: #e5e5e5;
+  /* Tailwind neutral-400 */
+  --neutral-400: #737373;
+  /* Tailwind neutral-700 */
+  --neutral-700: #404040;
 }
 
 html,
