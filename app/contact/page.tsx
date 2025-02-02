@@ -65,7 +65,7 @@ export default function Contact() {
                     </div>        
                     <div className={styles['contact-field']}>
                         <label htmlFor="message">Message</label>
-                        <input id="message" name="message" type="text" required />
+                        <textarea id="message" name="message" rows={5} required />
                     </div>  
                     <div className={styles.button}>
                         <button type="submit">Submit</button>

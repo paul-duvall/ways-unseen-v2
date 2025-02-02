@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 
-.contact input {
+.contact input, .contact textarea {
     background-color: var(--neutral-200);
     border: none;
     border-radius: 0.2rem;
