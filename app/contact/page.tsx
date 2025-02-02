@@ -47,7 +47,7 @@ export default function Contact() {
                 </p>
                 <p>
                     If you would like to get in contact you can email me at <a href="mailto:ways.unseen@gmail.com">ways.unseen@gmail.com</a> or 
-                    you can message me on <a href="ways-unseen.bsky.social" target="_blank">Bluesky</a> or <a href="https://www.instagram.com/ways.unseen" target="_blank">Instagram</a>. 
+                    you can message me on <a href="https://bsky.app/profile/ways-unseen.bsky.social" target="_blank">Bluesky</a> or <a href="https://www.instagram.com/ways.unseen" target="_blank">Instagram</a>. 
                 </p>
                 <form
                     ref={formRef}
