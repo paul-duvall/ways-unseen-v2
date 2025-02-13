@@ -7,16 +7,22 @@ export default function Navbar() {
   <nav>
     <div className={ 'navbar-logo-container' }>
       <Image
+        className={ 'navbar-logo' }
         src="/logo-grey.png"
         alt="Banner image"
         layout="intrinsic"
-        width={60}
-        height={60}
+        width={500}
+        height={514}
       />
       <span className={ 'navbar-logo-text' }>
         <b><Link href="/">Ways Unseen</Link></b>
       </span>
     </div>
+    <a href="#" className={ 'toggle-button' }>
+      <span className={ 'bar' }></span>
+      <span className={ 'bar' }></span>
+      <span className={ 'bar' }></span>
+    </a>
     <div className={ 'navbar-links-container' }>
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
