@@ -10,8 +10,12 @@
   --line-height: 1.6;
   /* Tailwind neutral-200 */
   --neutral-200: #e5e5e5;
+  /* Tailwind neutral-300 */
+  --neutral-300: #d4d4d4;
   /* Tailwind neutral-400 */
-  --neutral-400: #737373;
+  --neutral-400: #a3a3a3;
+    /* Tailwind neutral-500 */
+    --neutral-500: #737373;
   /* Tailwind neutral-700 */
   --neutral-700: #404040;
 }
@@ -62,7 +66,7 @@ h2 {
 
 a {
   font-weight: bold;
-  color: var(--neutral-400);
+  color: var(--neutral-500);
   text-decoration: none;
 }
 
@@ -114,10 +118,12 @@ nav {
 
 .navbar-links-container {
   a {
-    margin-left: 1.2rem;
+    border-radius: 0.3rem;
+    margin-left: 1rem;
+    padding: 0.3rem 0.75rem;
   }
   a:hover {
-    color: var(--neutral-400);
+    background-color: var(--neutral-300);
   }
 }
 
