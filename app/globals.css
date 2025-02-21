@@ -56,13 +56,9 @@ h1 {
   }
 }
 
-h2, nav {
-  font-family: "IM Fell English", serif;
-}
+h2, nav { font-family: "IM Fell English", serif; }
 
-h2 {
-  padding-bottom: 0.3rem;
-}
+h2 { padding-bottom: 0.3rem; }
 
 a {
   font-weight: bold;
@@ -75,11 +71,14 @@ p {
   margin-bottom: 1rem;
 }
 
-li {
-  margin-bottom: 0.5rem;
-}
+li { margin-bottom: 0.5rem; }
 
 /* Navbar */
+.navbar-container {
+  color: var(--neutral-700);
+  background: var(--neutral-200);
+}
+
 nav {
   display: flex;
   justify-content: start;
@@ -88,6 +87,7 @@ nav {
   margin: 0 auto;
   min-height: 3.5rem;
   padding: 0.3rem 1rem 0.3rem 1rem;
+  position: relative;
 }
 
 .navbar-logo-container {
@@ -105,14 +105,6 @@ nav {
 .navbar-links-container {
   align-items: center;
   display: none;
-}
-
-.navbar-container {
-  color: var(--neutral-700);
-  background: var(--neutral-200);
-}
-
-.navbar-links-container {
   a {
     border-radius: 0.3rem;
     margin-left: 1rem;
@@ -121,6 +113,33 @@ nav {
   a:hover {
     background-color: var(--neutral-300);
   }
+}
+
+.navbar-slideout-menu {
+  background: var(--neutral-200);
+  color: var(--neutral-700);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 4.2rem;  
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  width: 20rem;
+}
+
+.navbar-slideout-menu a {
+  margin-bottom: 1rem;
+}
+
+.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
 }
 
 .toggle-button {  
@@ -150,7 +169,7 @@ nav {
     display: flex;
   }
   .navbar-logo {
-    width: 5rem;
+    width: 4.5rem;
   }
   .navbar-logo-text {
     display: block;
@@ -172,7 +191,6 @@ nav {
 }
 
 /* Footer */
-
 footer {
   background: var(--neutral-200);
   color: var(--neutral-700);
