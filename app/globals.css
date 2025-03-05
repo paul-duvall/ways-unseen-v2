@@ -16,6 +16,8 @@
   --neutral-400: #a3a3a3;
     /* Tailwind neutral-500 */
     --neutral-500: #737373;
+    /* Tailwind neutral-600 */
+    --neutral-600: #525252;
   /* Tailwind neutral-700 */
   --neutral-700: #404040;
 }
@@ -40,13 +42,21 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: 1.5rem;
+h1, h2 {
   font-family: "IM Fell English", serif;
-  max-width: 55rem;
   margin: 0 auto;
-  padding-bottom: 0.5rem;
+  max-width: 55rem;
   text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3rem;
 }
 
 @media (min-width: 60rem) {
@@ -56,14 +66,15 @@ h1 {
   }
 }
 
-h2, nav { font-family: "IM Fell English", serif; }
-
-h2 { padding-bottom: 0.3rem; }
+nav { font-family: "IM Fell English", serif; }
 
 a {
   font-weight: bold;
-  color: var(--neutral-500);
+  color: var(--neutral-400);
   text-decoration: none;
+}
+a:hover {
+  color: var(--neutral-500);
 }
 
 p {
