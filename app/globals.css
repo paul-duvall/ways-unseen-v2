@@ -116,14 +116,27 @@ nav {
 .navbar-links-container {
   align-items: center;
   display: none;
-  a {
+}
+
+.nav-link {
     border-radius: 0.3rem;
     margin-left: 1rem;
     padding: 0.3rem 0.75rem;
   }
-  a:hover {
-    background-color: var(--neutral-300);
-  }
+.nav-link:hover, .social-icon-link:hover {
+  background-color: var(--neutral-300);
+}
+
+.social-icon-link-container {
+  display: flex;
+}
+
+.social-icon-link {
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 8px;
+  padding: 0.2rem;
 }
 
 .navbar-slideout-menu {
@@ -180,10 +193,7 @@ nav {
     display: flex;
   }
   .navbar-logo {
-    width: 4.5rem;
-  }
-  .navbar-logo-text {
-    display: block;
+    min-width: 3rem;
   }
   .navbar-links-container {
     display: flex;
